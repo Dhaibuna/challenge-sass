@@ -1,33 +1,11 @@
+// Import partials
 
-// Variables
+@import "variables";
+@import "extensions";
+@import "mixins";
 
-$color-primary: #6b717f;
-$color-secondary:#8C8C8C;
-$color-title:#BF4080;
-$primary-bg-color:#FFFFFF;
-$success-bg-color: green;
-$error-bg-color:red;
-$warning-bg-color:orange;
-$general-padding: 16px; 
+// Nesting 
 
-//Mixins
-
-@mixin box-shadow{
-    -webkit-box-shadow: 10px 10px 15px -4px #6b717f;
-    -moz-box-shadow: 10px 10px 15px -4px #6b717f;
-     box-shadow: 10px 10px 15px -4px #6b717f;
-}
-
-
-//Extension
-
-%message-style{
-    border: 1px solid $color-secondary;
-    padding: 16px;
-    color: $primary-bg-color;
-}
-
-// Nesting
 
 body {
     font: 100% "Space Mono", monospace;
